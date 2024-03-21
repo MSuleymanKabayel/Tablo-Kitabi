@@ -53,44 +53,47 @@ class detailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
     }
     
 
-    @IBAction func saveButton(_ sender: Any) {
+  
+    @IBAction func buttonTapped(_ sender: Any) {
         
         print("tiklama")
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        print("eror1")
+
         let context = appDelegate.persistentContainer.viewContext
-        print("eror2")
+
         let newPainting = NSEntityDescription.insertNewObject(forEntityName: "Paintings", into: context)
-        print("eror3")
+
         
         
         //Atributes
         newPainting.setValue(nameText.text, forKey: "name")
-        print("isim")
+
         newPainting.setValue(artistText.text, forKey: "artist")
-        print("resam")
+
         if let year = Int(yearText.text!)
         {
             newPainting.setValue(year, forKey: "year")
         }
-        print("yil")
+
         
         newPainting.setValue(UUID(), forKey: "id")
-        print("id")
+
         
         let data = imageView.image?.jpegData(compressionQuality: 0.5)
         
         newPainting.setValue(data, forKey: "image")
-        print("resim")
+
         
         do{
             try context.save()
-            print("sucses")
+            print("saved")
+           
         }catch{
-            print("eror")
+           print("faild")
         }
     }
+    
     
     
 

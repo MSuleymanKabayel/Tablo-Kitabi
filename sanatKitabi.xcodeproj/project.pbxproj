@@ -14,6 +14,8 @@
 		0AD82DCB2BA858B1006B1FD2 /* sanatKitabi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0AD82DC92BA858B1006B1FD2 /* sanatKitabi.xcdatamodeld */; };
 		0AD82DCD2BA858B3006B1FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD82DCC2BA858B3006B1FD2 /* Assets.xcassets */; };
 		0AD82DD02BA858B3006B1FD2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0AD82DCF2BA858B3006B1FD2 /* Base */; };
+		0AD82DD82BA86027006B1FD2 /* detailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD82DD72BA86027006B1FD2 /* detailsVC.swift */; };
+		0AD82DDA2BA871A1006B1FD2 /* Ekran Resmi 2024-03-18 15.56.26.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD82DD92BA871A1006B1FD2 /* Ekran Resmi 2024-03-18 15.56.26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0AD82DCC2BA858B3006B1FD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD82DCF2BA858B3006B1FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD82DD12BA858B3006B1FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD82DD72BA86027006B1FD2 /* detailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsVC.swift; sourceTree = "<group>"; };
+		0AD82DD92BA871A1006B1FD2 /* Ekran Resmi 2024-03-18 15.56.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ekran Resmi 2024-03-18 15.56.26.png"; path = "../../../../Library/Containers/com.aptonic.Dropzone4/Data/Library/Application Support/Dropzone/Promised Files/DzFilePromise-176499F0-1055-40CF-BAD8-70B03151CF74/Ekran Resmi 2024-03-18 15.56.26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				0AD82DC02BA858B1006B1FD2 /* AppDelegate.swift */,
 				0AD82DC22BA858B1006B1FD2 /* SceneDelegate.swift */,
 				0AD82DC42BA858B1006B1FD2 /* ViewController.swift */,
+				0AD82DD72BA86027006B1FD2 /* detailsVC.swift */,
 				0AD82DC62BA858B1006B1FD2 /* Main.storyboard */,
 				0AD82DCC2BA858B3006B1FD2 /* Assets.xcassets */,
 				0AD82DCE2BA858B3006B1FD2 /* LaunchScreen.storyboard */,
 				0AD82DD12BA858B3006B1FD2 /* Info.plist */,
 				0AD82DC92BA858B1006B1FD2 /* sanatKitabi.xcdatamodeld */,
+				0AD82DD92BA871A1006B1FD2 /* Ekran Resmi 2024-03-18 15.56.26.png */,
 			);
 			path = sanatKitabi;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				0AD82DCD2BA858B3006B1FD2 /* Assets.xcassets in Resources */,
 				0AD82DD02BA858B3006B1FD2 /* Base in Resources */,
+				0AD82DDA2BA871A1006B1FD2 /* Ekran Resmi 2024-03-18 15.56.26.png in Resources */,
 				0AD82DC82BA858B1006B1FD2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 			files = (
 				0AD82DC52BA858B1006B1FD2 /* ViewController.swift in Sources */,
 				0AD82DC12BA858B1006B1FD2 /* AppDelegate.swift in Sources */,
+				0AD82DD82BA86027006B1FD2 /* detailsVC.swift in Sources */,
 				0AD82DC32BA858B1006B1FD2 /* SceneDelegate.swift in Sources */,
 				0AD82DCB2BA858B1006B1FD2 /* sanatKitabi.xcdatamodeld in Sources */,
 			);
